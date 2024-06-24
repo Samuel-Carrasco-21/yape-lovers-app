@@ -1,6 +1,6 @@
-import tour1 from "../images/javascript.png"
 import montserrat from "../assets/montserrat.jpg";
 import mishi from "../assets/mishi.jpg";
+import joaquin from "../assets/JoaquinFernandez_Fotosinfondo.jpg";
 import jose from "../assets/foto_perfil_rostro_2.jpg";
 
 export const optionLinks = [
@@ -59,7 +59,7 @@ export const services = [
 export const tours = [
     {
       id: 1000,
-      image: tour1,
+      image: joaquin,
       title: "Joaquín Fernandez",
       info: `CEO & Co-founder de CheckQr`,
       duration: "20 años",
