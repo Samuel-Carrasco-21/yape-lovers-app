@@ -13,7 +13,10 @@ export const Footer = () => {
       <div>
         <h3 style={{color: 'white'}}>Contactanos</h3>
         <div>
+          <p style={{color: 'white'}}>jfernandezaliendre@gmail.com</p>
           <p style={{color: 'white'}}>jsce2021@gmail.com</p>
+          <p style={{color: 'white'}}>michellesalinasl10@gmail.com</p>
+          <p style={{color: 'white'}}>katynymeria05@gmail.com</p>
         </div>
       </div>
       <CopyrightText/>

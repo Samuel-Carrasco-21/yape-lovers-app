@@ -16,11 +16,11 @@ export const About = () => {
           />
         </div>
         <article className="about-info">
-          <h3>definición</h3>
+          <h3>objetivo</h3>
           <p>
-            CheckQr es una startup, cuyo objetivo principal es brindar uns servicio
-            de ChatBot, el cual ayude a un usuario a gestionar de forma segura y
-            automatizada los distintos cobro de QR que se vayan a realizar.
+            El principal objetivo de CheckQr es ofrecer un servicio de ChatBot
+            que permita a los usuarios gestionar de manera segura y automatizada
+            los cobros mediante QR.
           </p>
           <h3>misión</h3>
           <p>
@@ -38,9 +38,11 @@ export const About = () => {
             por nuestra solución tecnológica, facilidad de uso y capacidad para generar
             confianza entre nuestros usuarios.
           </p>
-          <a href="#" className="btn">ver más</a>
-          <a href="https://mediafiles.botpress.cloud/17b9de8d-e993-490f-9674-61f5cbb6ac1d/webchat/bot.html"
-            className="btn" style={{marginLeft: '20px'}}>Nuestro bot</a>
+          <div className='buttons-about-section'>
+            <a href="#" className="btn" style={{margin: '15px', marginLeft: 0}}>ver más</a>
+            <a href="https://mediafiles.botpress.cloud/17b9de8d-e993-490f-9674-61f5cbb6ac1d/webchat/bot.html"
+              className="btn" style={{margin: '15px', marginLeft: 0}}>Nuestro bot</a>
+          </div>
         </article>
       </div>
     </section>

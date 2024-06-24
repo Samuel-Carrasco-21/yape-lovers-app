@@ -4,10 +4,17 @@ import { PrincipalLogo } from "./PrincipalLogo";
 import { SectionLinks } from "./SectionLinks";
 
 export const Navbar = () => {
+
+
   return (
     <nav className="navbar">
       <div className="nav-center">
-        <PrincipalLogo />
+        <div style={{display: 'flex', alignItems: 'center', color: 'white', justifySelf: 'start', width: '250px'}}>
+          <PrincipalLogo />
+          <h3 style={{marginTop: '10px', marginLeft: '20px'}}>
+            CheckQr
+          </h3>
+        </div>
         <SectionLinks
           listaLinks={optionLinks}
           Parentclass="nav-links"

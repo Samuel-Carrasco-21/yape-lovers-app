@@ -245,6 +245,24 @@ About
   margin-bottom: 2rem;
 }
 
+.buttons-about-section{
+  display: flex;
+  width: max-content;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+@media screen and (max-width: 321px) {
+  .buttons-about-section{
+    display: flex;
+    height: max-content;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+}
+
 @media screen and (min-width: 992px) {
   .about-center {
     display: grid;
@@ -487,6 +505,10 @@ Navbar
   width: 90vw;
   max-width: 1170px;
   margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
 }
 .nav-header {
   display: flex;
