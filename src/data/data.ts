@@ -1,7 +1,7 @@
-import montserrat from "../assets/montserrat.jpg";
-import mishi from "../assets/mishi.jpg";
-import joaquin from "../assets/JoaquinFernandez_Fotosinfondo.jpg";
-import jose from "../assets/foto_perfil_rostro_2.jpg";
+import montserrat from "../assets/montserrat_fondo_blanco.png";
+import mishi from "../assets/mishi_fondo_blanco.png";
+import joaquin from "../assets/JoaquinFernandez_fondo_blanco.png";
+import jose from "../assets/jose_fondo_blanco.png";
 
 export const optionLinks = [
     {
