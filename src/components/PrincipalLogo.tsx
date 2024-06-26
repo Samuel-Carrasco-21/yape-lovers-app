@@ -1,4 +1,4 @@
-import logo from "../images/Designer.jpg"
+import logo from "../assets/the_logo.png"
 import '../App.css'
 
 export const PrincipalLogo = () => {

@@ -1,6 +1,5 @@
 import "../App.css";
 import { optionLinks } from "../data/data";
-import { PrincipalLogo } from "./PrincipalLogo";
 import { SectionLinks } from "./SectionLinks";
 
 export const Navbar = () => {
@@ -10,7 +9,6 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="nav-center">
         <div style={{display: 'flex', alignItems: 'center', color: 'white', justifySelf: 'start', width: '250px'}}>
-          <PrincipalLogo />
           <h3 style={{marginTop: '10px', marginLeft: '20px'}}>
             CheckQr
           </h3>
